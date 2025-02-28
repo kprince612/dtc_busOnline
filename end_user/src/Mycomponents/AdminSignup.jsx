@@ -27,7 +27,7 @@ function AdminSignup() {
         console.log (adminsignup);
 
         try {
-            const response = await axios.post ("http://127.0.0.1:5000/api/adminsignup", adminsignup);
+            const response = await axios.post ("https://dtc-bus-online-7s3n.vercel.app/api/adminsignup", adminsignup);
             console.log ("admin signup data saved ", response.data);
 
             setAdminSignup ({
