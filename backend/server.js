@@ -7,7 +7,7 @@ const { handleSuccess } = require("../end_user/src/utils");
 const app = express ();
 const PORT = 5000;
 
-app.use (cors());
+app.use(cors({ origin: "*" }));
 app.use (express.json ());
 
 app.use (bodyParser.json ());
