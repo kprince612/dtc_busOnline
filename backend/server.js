@@ -7,7 +7,8 @@ const { handleSuccess } = require("../end_user/src/utils");
 const app = express ();
 const PORT = 5000;
 
-app.use(cors({ origin: "*" }));
+app.use(cors({ origin: 'https://dtc-bus-online-p4rh.vercel.app', credentials: true }));
+
 app.use (express.json ());
 
 app.use (bodyParser.json ());
