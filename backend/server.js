@@ -12,7 +12,7 @@ app.use (express.json ());
 
 app.use (bodyParser.json ());
 
-mongoose.connect ("mongodb+srv://p684188:Prince@123456@cluster0.c3uta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect ("mongodb+srv://p684188:Prince%40123456@cluster0.c3uta.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0", {
 })
     .then (() => console.log ("connected to Mongodb"))
     .catch ((err) => console.log ("Mongodb connection error", err));
