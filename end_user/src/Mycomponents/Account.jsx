@@ -27,7 +27,7 @@ function Account() {
         }
 
         try {
-            const response = await axios.post("https://dtc-bus-online-7s3n.vercel.app/api/fetchBookings", fetchBooking);
+            const response = await axios.post("https://dtc-bus-online-hkcf.vercel.app/api/fetchBookings", fetchBooking);
 
             setbook (true);
 

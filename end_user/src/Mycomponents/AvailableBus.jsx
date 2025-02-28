@@ -14,7 +14,7 @@ function AvailableBus() {
         // e.preventDefault ();
 
         try {
-            const response = await axios.post ("https://dtc-bus-online-7s3n.vercel.app/api/fetchbusdata");
+            const response = await axios.post ("https://dtc-bus-online-hkcf.vercel.app/api/fetchbusdata");
 
             if (response.status === 200) {
                 handleSuccess ("this is the available buses");

@@ -26,7 +26,7 @@ function AdminLogin() {
         }
 
         try {
-            const response = await axios.post ("https://dtc-bus-online-7s3n.vercel.app/api/loginData", adminLoginData);
+            const response = await axios.post ("https://dtc-bus-online-hkcf.vercel.app/api/loginData", adminLoginData);
 
             if (response.data) {
                 handleSuccess ("Admin Login Successful");

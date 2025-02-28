@@ -160,7 +160,7 @@ function AdminData() {
       setBooks(true);
 
       const response = await axios.post(
-        `https://dtc-bus-online-7s3n.vercel.app/api/fetchData/${selectedOption}`,
+        `https://dtc-bus-online-hkcf.vercel.app/api/fetchData/${selectedOption}`,
         { [selectedOption]: inputValue }
       );
 

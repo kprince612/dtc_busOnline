@@ -28,7 +28,7 @@ function Reviews() {
 
         else {
             try {
-                const response = await axios.post ("https://dtc-bus-online-7s3n.vercel.app/api/reviews", reviews);
+                const response = await axios.post ("https://dtc-bus-online-hkcf.vercel.app/api/reviews", reviews);
 
                 console.log ("Review data save:", response.data);
 

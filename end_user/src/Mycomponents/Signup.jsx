@@ -31,7 +31,7 @@ function Signup() {
 
     else {
       try {
-        const response = await axios.post ("https://dtc-bus-online-7s3n.vercel.app/api/signup", signupData);
+        const response = await axios.post ("https://dtc-bus-online-hkcf.vercel.app/api/signup", signupData);
         console.log ("signup data saved:", response.data);
 
         setSignupData ({
